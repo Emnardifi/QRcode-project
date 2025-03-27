@@ -1,0 +1,81 @@
+body {
+  background-image: url(/ordersummary/image/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.card {
+  width: 450px;
+  margin: auto;
+  margin-top: 100px;
+  background-color: white;
+}
+.card h2 {
+  color: hsl(223, 47%, 23%);
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 25px;
+  text-align: center;
+}
+.card p:nth-of-type(1) {
+  font-size: 18px;
+  font-family: sans-serif;
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+  line-height: 1.7;
+}
+.box1 {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  background-color: hsl(225, 100%, 98%);
+  justify-content: center;
+  border-radius: 10px;
+  margin: 20px;
+}
+.box1 .col:nth-of-type(1) {
+  display: flex;
+  gap: 20px;
+}
+.box1 .col img {
+  width: 70px;
+  height: 70px;
+  margin: auto;
+}
+.card .box1 .col p:nth-of-type(1) {
+  color: hsl(223, 47%, 23%);
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+.card .box1 .col p:nth-of-type(2) {
+  font-family: sans-serif;
+  color: hsl(224, 23%, 55%);
+}
+.box1 .col a {
+  font-family: sans-serif;
+  color: hsl(245, 75%, 52%);
+  font-weight: bold;
+  background-color: white;
+}
+.card .link > a {
+  display: block;
+  text-decoration: none;
+  font-family: sans-serif;
+  padding: 20px;
+  background-color: hsl(245, 75%, 52%);
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+}
+.card .link1 a {
+  display: block;
+  text-decoration: none;
+  font-family: sans-serif;
+  padding: 20px;
+  background-color: white;
+  margin: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
